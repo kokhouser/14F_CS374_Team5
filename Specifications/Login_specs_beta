@@ -1,0 +1,13 @@
+Logic specifications Beta
+Class Conflict formula:
+•	New class time replace the old class time.
+•	Compare it to students schedules who are in the class.
+•	List all the conflicts from High priority to low priority
+  •	If no conflicts, move class to new time and sign up all students registered in original section to new one
+•	Senior has the Highest priority then Junior then sophomore then freshman (class size will be considered afterwards)
+•	Report the number of conflicts with student ID’s
+•	Suggest a new time
+  • Begin by gathering the ID’s of the students with conflicts
+  •	Uses their ID to search for empty slots within their schedule 
+  •	Searches for an empty slot for all students with conflicts
+  •	Compose list of available time slots for teacher to choose from
