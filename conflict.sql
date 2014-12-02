@@ -1,10 +1,3 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
-{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
-
-\f0\fs22 \cf0 \CocoaLigature0 USE Class_Conflict;\
 DROP TABLE IF EXISTS student;\
 CREATE TABLE student(id INT, first_name varchar(255), last_name varchar(255), classification varchar(255), major varchar(255), PRIMARY KEY(id));\
 INSERT INTO student (id, first_name, last_name, classification, major) VALUES\
@@ -30898,4 +30891,3 @@ INSERT INTO student_section (student_id, section_id) VALUES\
 (000920766, 10936),\
 (000128728, 10936),\
 (000097423, 0);\
-}
